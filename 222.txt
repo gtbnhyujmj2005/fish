@@ -1,0 +1,7 @@
+🧪 實戰技術組合（推薦）
+任務	工具	描述
+搜尋	[Entrez API + Biopython]	自動搜尋指定主題（例："carp blue pigment genes"）
+抽取	[PubTator API]	自動抽出文中提到的 gene / protein / disease 等生物實體
+摘要	[sumy、transformers模型、GPT API`]	自動摘要成 3~5 句精華句
+翻譯	[DeepL API, Google Translate API]	精準翻譯，非逐字而是自然語意翻
+彙整	pandas + CSV / Notion API	存成你習慣用的資料表、筆記、知識庫格式
