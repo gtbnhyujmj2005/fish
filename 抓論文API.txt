@@ -1,0 +1,14 @@
+✔ 推薦工具與方案：
+工具 / 平台	優點	使用建議
+Entrez API / rentrez (R) / Biopython	官方提供、穩定、可抓 meta + abstract	指定 MeSH 或 gene 關鍵詞作搜尋
+PubTator 3.0	提供實體標註：蛋白、基因、疾病	較方便做 NLP 型資訊抽取 
+reddit.com
+pmc.ncbi.nlm.nih.gov
++5
+arxiv.org
++5
+pmc.ncbi.nlm.nih.gov
++5
+Europe PMC API	提供全文 access，補足 PubMed metadata	appropriate when needing full text
+OpenAlex	開源 index，可抓 paper metadata、引文與主題分類	建立自己的文獻知識圖譜可考慮
+Scopus / Web of Science	類似 PubMed，功能強但付費	若學校有授權，用於引用分析與高影響文獻追蹤
