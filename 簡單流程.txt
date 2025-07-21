@@ -1,0 +1,28 @@
+簡單流程建議：
+用 rentrez 抓 PubMed 上的論文 metadata + abstract
+
+用 PubTator API 抽取候選基因/色素路徑標註
+
+整理成「藍色色素相關基因-物種」的資料表
+
+用 OpenAlex 建立引用網絡，看關鍵研究如何被引用
+
+做初步熱門關鍵詞分析（NLP topic model 可考慮）
+
+✅ 小結
+不要用爬蟲抓PubMed HTML，直接用官方 API（Entrez、PubTator、Europe PMC）＋ open 資料庫（OpenAlex）更快、更合法、維護性高。
+
+利用 NLP 抽標註資訊，能幫你快速找出關鍵基因、關鍵論文、引用關聯，作為設計實驗的堅實基底。
+
+✅ 研究型文獻自動提取與閱讀流程（Anti-Cry Version）
+🔁 流程總覽：
+自動搜尋與下載 Abstract（或 Fulltext）
+
+自動抽出你要的欄位（標題、作者、基因、物種、色素名）
+
+自動摘要：抓重點句子、濃縮摘要內容
+
+自動翻譯：摘要變成中文
+
+輸出為 CSV / Notion / Excel 可閱讀清單
+
